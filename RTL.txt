@@ -1,0 +1,5 @@
+conditional RTLs
+	start       : count ← 0
+	car_in      : count ← count + 1
+	car_out     : count ← count - 1
+	count >= 512: full ← 1
